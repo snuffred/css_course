@@ -5,3 +5,14 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+
+ol {
+  list-style-type: square;
+  text-align: center;
+  line-height: 1.6;
+  list-style-image: url("../images/checkmark.png");
+}
+
+ul ::marker {
+  content: "Only %5>>";
+}
